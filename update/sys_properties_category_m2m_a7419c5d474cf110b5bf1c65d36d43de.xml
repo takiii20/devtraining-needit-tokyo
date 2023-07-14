@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="NeedIt Properties">28205c1d474cf110b5bf1c65d36d43b0</category>
+        <order>200</order>
+        <property display_value="x_58872_needit.autoCloseOverdue" name="x_58872_needit.autoCloseOverdue">8aa0d45d474cf110b5bf1c65d36d437d</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 06:44:32</sys_created_on>
+        <sys_id>a7419c5d474cf110b5bf1c65d36d43de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_58872_needit.autoCloseOverdue.NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_a7419c5d474cf110b5bf1c65d36d43de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 06:47:43</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
