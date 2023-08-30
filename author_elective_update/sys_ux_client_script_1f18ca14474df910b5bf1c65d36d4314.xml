@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">5fd11afb1b818d10b81fdce7cc4bcb15</macroponent>
+        <name>Write payload object to console</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  // Write the JSON payload of a component to the 
+  // browser's console as a string
+  console.log(JSON.stringify(event.payload,null,4));
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 06:04:38</sys_created_on>
+        <sys_id>1f18ca14474df910b5bf1c65d36d4314</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Write payload object to console</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_1f18ca14474df910b5bf1c65d36d4314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 06:05:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>826ccbbedb86d55807072f17d496194a</instance_id>
+        <instance_name>dev136598</instance_name>
+        <name>sys_ux_client_script_1f18ca14474df910b5bf1c65d36d4314</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;5fd11afb1b818d10b81fdce7cc4bcb15&lt;/macroponent&gt;&lt;name&gt;Write payload object to console&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  // Write the JSON payload of a component to the 
+  // browser's console as a string
+  console.log(JSON.stringify(event.payload,null,4));
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-30 06:04:38&lt;/sys_created_on&gt;&lt;sys_id&gt;1f18ca14474df910b5bf1c65d36d4314&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Write payload object to console&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_1f18ca14474df910b5bf1c65d36d4314&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-30 06:05:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1212409765</payload_hash>
+        <record_name>Write payload object to console</record_name>
+        <reverted_from/>
+        <source>a57c4459474cf110b5bf1c65d36d43cd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 06:05:15</sys_created_on>
+        <sys_id>5e0b4e18474df910b5bf1c65d36d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a450bc9850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 06:05:15</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>160b4e18624df9103cbbf1427bfb308b</update_guid>
+        <update_guid_history>160b4e18624df9103cbbf1427bfb308b:-1212409765,d80b0e183c4df9100a7de85ee35a568e:261545819,59ea8a18574df910b2673a85da78ad04:-185728825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-30 06:10:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1b54f701f71e4c0080d0b5af7c7ee5d9</sys_id>
+        <sys_metadata>1f18ca14474df910b5bf1c65d36d4314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Write payload object to console</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_1f18ca14474df910b5bf1c65d36d4314</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_1f18ca14474df910b5bf1c65d36d4314">5e0b4e18474df910b5bf1c65d36d438b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-30 06:10:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
